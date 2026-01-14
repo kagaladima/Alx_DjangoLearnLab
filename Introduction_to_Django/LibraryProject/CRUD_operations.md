@@ -13,10 +13,10 @@ book = Book.objects.create(
     publication_year=1989
 )
 
-book = Book.objects.get(tittle="Things fall apart")
+book = Book.objects.get(title="Things fall apart")
 book.tittle, book.author, book.publication_year
 
-book - Book.pbjects.get(tittle="Things fall apart")
+book - Book.pbjects.get(title="Things fall apart")
 book.tittle = "Rich dad poor dad"
 book.save()
 
