@@ -3,6 +3,6 @@
 ```python
 from bookshelf.models import Book
 
-book - Book.pbjects.get(title="Things fall apart")
-book.tittle = "Rich dad poor dad"
+book = Book.objects.get(title="1984")
+book.title = "Nineteen Eighty-Four"
 book.save()

@@ -4,7 +4,7 @@
 from bookshelf.models import Book
 
 book = Book.objects.create(
-    title="Things fall apart",
-    author="Chinua Achebe",
-    publication_year=1989
+    title="1984",
+    author="George Orwell",
+    publication_year=1949
 )
