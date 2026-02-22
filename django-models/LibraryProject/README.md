@@ -1,0 +1,1 @@
+<!-- This is a Django project created for learning and introductory purposes as part of the ALX Django Learn Lab. -->
